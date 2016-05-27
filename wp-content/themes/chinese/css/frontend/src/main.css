@@ -154,6 +154,7 @@ li{
     box-shadow: 0 8px 10px -5px #ccc;
     opacity: 0;
     filter:alpha(opacity=0);
+    visibility:hidden;
 }
 .menu>.menu-item>.sub-menu>.menu-item{
     border-left:1px solid #e8e8e8;
@@ -180,6 +181,7 @@ li{
     filter:alpha(opacity=100);
     left: -6%;
     width: 112%;
+    visibility:visible;
     display: table!important;
 }
 /**
